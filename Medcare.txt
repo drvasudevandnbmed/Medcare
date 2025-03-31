@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="MedCare Clinic Logo">
+        <img src="logo.png-1" alt="MedCare Clinic Logo">
         <h1>MedCare Clinic</h1>
         <p>Dr. Vasudevan, MBBS, DNB Medicine</p>
     </header>
