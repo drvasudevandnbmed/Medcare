@@ -1,65 +1,64 @@
-/* General Layout and Design */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedCare Clinic - Dr. Vasudevan</title>
+    <!-- Link to style.css inside the 'css' folder -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="MedCare Clinic Logo">
+        <h1>MedCare Clinic</h1>
+        <p>Dr. Vasudevan, MBBS, DNB Medicine</p>
+    </header>
 
-/* Header Styling */
-header {
-    background-color: #2E86C1;
-    color: white;
-    text-align: center;
-    padding: 2em 0;
-}
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#appointment">Book Appointment</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-/* Navigation Bar Styling */
-nav {
-    background-color: #117A65;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-}
-nav a {
-    color: white;
-    margin: 0 20px;
-    text-decoration: none;
-    font-size: 18px;
-}
-nav a:hover {
-    text-decoration: underline;
-}
+    <section id="about">
+        <h2>About Dr. Vasudevan</h2>
+        <p>Welcome to MedCare Clinic, where we provide expert medical care with a compassionate approach. Dr. Vasudevan is a highly experienced physician specializing in Internal Medicine.</p>
+    </section>
 
-/* Section Styling */
-section {
-    padding: 20px;
-    background-color: white;
-    margin: 20px;
-    border-radius: 8px;
-}
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>General Health Checkups</li>
+            <li>Diabetes & Hypertension Management</li>
+            <li>Cardiac Care</li>
+            <li>Respiratory Disorders Treatment</li>
+            <li>Preventive Health Screenings</li>
+        </ul>
+    </section>
 
-/* Footer Styling */
-footer {
-    background-color: #2E86C1;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+    <section id="appointment">
+        <h2>Book an Appointment</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 
-/* Button Styling for Future Use (e.g., in Booking Section) */
-button {
-    background-color: #117A65;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-button:hover {
-    background-color: #2E86C1;
-}
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: MedCare Clinic, [Your Location]</p>
+        <p>Phone: [Your Contact Number]</p>
+        <p>Email: [Your Email Address]</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MedCare Clinic. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
